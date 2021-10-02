@@ -6,7 +6,7 @@ class LoginPage(BasePage):
 
     def should_be_login_page(self):
         login_lbl = self.find_element(LoginPageLocators.LOCATOR_LOGIN_LABEL)
-        assert login_lbl.text == "Log in"
+        assert login_lbl.get_attribute("innerText") == "Log in"
 
     def login(self, email: str, passwd: str):
         email_field = self.find_element(LoginPageLocators.LOCATOR_EMAIL_LOGIN_FIELD)
