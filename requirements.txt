@@ -1,0 +1,8 @@
+flake8
+pydocstyle
+langdetect
+numpy
+pytest
+selenium
+requests
+PyYAML
