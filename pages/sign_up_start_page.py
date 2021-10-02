@@ -5,7 +5,7 @@ from locators.sign_up_locators import SignUpLocators
 class SignUpStartPage(BasePage):
     def should_be_sign_up_start_page(self):
         start_sign_up_header = self.find_element(SignUpLocators.LOCATOR_START_SIGN_UP_HEADER)
-        assert start_sign_up_header.text == "EventSource Sign up"
+        assert start_sign_up_header.get_attribute("innerText") == "EventSource Sign up"
 
     def start_sign_up(self, full_name: str, email: str):
         full_name_field = self.find_element(SignUpLocators.LOCATOR_FULL_NAME_FIELD)

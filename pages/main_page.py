@@ -11,3 +11,7 @@ class MainPage(BasePage):
     def open_sign_in_page(self):
         sign_in_btn = self.find_element(MainPageLocators.LOCATOR_SIGN_UP_BTN)
         sign_in_btn.click()
+
+    def open_passwd_reset_page(self, ):
+        sign_in_btn = self.find_element(MainPageLocators.LOCATOR_SIGN_UP_BTN)
+        sign_in_btn.click()
