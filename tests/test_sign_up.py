@@ -44,7 +44,7 @@ def test_user_can_sign_in(browser):
         print("!!!!!" + email_box['key'])
         email_box_key = email_box['key']
         # sleep is needed for registration mail will be sent to user_email
-        time.sleep(10)
+        time.sleep(15)
         mail_list = user_email.get_mails_list(email_box_key)
         print("!!!!! mail_list: " + json.dumps(mail_list))
         sign_up_email_msg = user_email.get_mail_msg(mail_list[0]['id'], email_box_key)
