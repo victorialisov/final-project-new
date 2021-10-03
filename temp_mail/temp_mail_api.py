@@ -11,7 +11,8 @@ class TempUserEmail:
         return json_response
 
     def get_mails_list(self, key: str):
-        response = requests.get(self.email_api_url, params={'action': 'getlist', 'hash': self.hash_value, 'key': key}, verify=False)
+        response = requests.get(self.email_api_url, params={'action': 'getlist', 'hash': self.hash_value,
+                                                            'key': key}, verify=False)
         json_response = response.json()
         return json_response
 

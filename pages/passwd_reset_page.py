@@ -24,5 +24,3 @@ class PasswordReset(BasePage):
     def navigate_to_profile_page(self):
         open_profile_btn = self.find_element(PasswordResetLocators.LOCATOR_OPEN_PROFILE_BTN)
         open_profile_btn.click()
-
-

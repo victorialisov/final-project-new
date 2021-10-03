@@ -15,5 +15,4 @@ class SignUpLocators:
 
     # final sign up
     LOCATOR_FINAL_SIGN_UP_HEADER = (By.XPATH, '//p[contains(text(), \'Check your email\')]')
-    # LOCATOR_GOT_IT_BTN = (By.XPATH, '//a[contains(@class, \'btn-get-it\')]')
     LOCATOR_GOT_IT_BTN = (By.XPATH, '//p[contains(@class, \'modal-form-title\')]')

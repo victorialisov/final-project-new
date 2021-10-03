@@ -12,4 +12,3 @@ class UserProfile(BasePage):
         user_name_lbl = self.find_element(UserProfileLocators.LOCATOR_USER_NAME_LBL)
         time.sleep(5)
         assert full_name in user_name_lbl.text
-
