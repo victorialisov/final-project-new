@@ -6,3 +6,5 @@ pytest
 selenium
 requests
 PyYAML
+allure-pytest
+allure-python-commons
