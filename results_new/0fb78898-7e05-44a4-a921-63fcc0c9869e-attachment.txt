@@ -1,0 +1,7 @@
+!!!!!kmotschb52@post-shift.ru
+!!!!!d2e886037a0a540e1bbda1e01fc24429
+!!!!! mail_list: [{"id": 1, "date": "3 Oct 2021 13:00:11 -0400", "subject": "Activate your EventSource.ca Account", "from": "EventSource.ca <support@torontocaterers.ca>"}]
+!!!!! email_msg: Thanks for signing up with <b>EventSource.ca</b> - Toronto & GTA�s Favourite Event Planning Website!
+
+To ensure that all your saved favourites, notes and history don't get lost, please be sure to https://www.torontocaterers.ca/auth/resetpassword?key=8A150007D4B690B3C8A8EB20AB3774BB confirm your account within 24 hours.
+!!!!! passwd: hdhgpzny
